@@ -22,10 +22,9 @@ Content-Type: application/json
     "password": "Pass123"
 }
 
-
 ###
 
 # @name CreateQuestion
-GET {{baseUrl}}/questions
+POST {{baseUrl}}/questions
 Content-Type: application/json
 Authorization: Bearer {{authToken}}
